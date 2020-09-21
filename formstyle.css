@@ -115,12 +115,6 @@ input:focus:invalid:required {
 	border: 1px solid red;
   }
 
-  /* span {
-	  color: rgb(247, 103, 103);
-	  text-align: center;
-	  justify-content: center;
-  } */
-
   .email-error, .name-error {
 	font-size: 80%;
 	color: rgb(247, 103, 103);
