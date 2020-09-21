@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Contact us</title>
+  <link rel="stylesheet" type="text/css" href="formstyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <div class="contact-box">
+      <div class="left"></div>
+      <div class="right">
+        <div id="error"></div>
+        <h2>Contact Us</h2>
+        <form action="#" method="GET" class="contact-form" novalidate>
+          <span class="name-error"></span>
+          <input type="text" class="field" id="name" placeholder="Your Name*" required>
+          <span class="email-error"></span>
+          <input type="email" class="field" id="email" placeholder="Your Email*" required>
+          <input type="tel" class="field" id="phone" placeholder="Phone">
+          <textarea placeholder="Message" class="field" id="message"></textarea>
+          <button type="submit" class="btn" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="formscript.js"></script>
+</body>
+
+</html>
